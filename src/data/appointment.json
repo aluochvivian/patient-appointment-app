@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "date": "2023-11-01",
+    "time": "10:00 AM - 11:00 AM",
+    "description": "Blood Pressure Checkup",
+    "patientId": 1,
+    "attended": true
+  },
+  {
+    "id": 2,
+    "date": "2023-11-05",
+    "time": "2:00 PM - 3:00 PM",
+    "description": "Canser Consultation",
+    "patientId": 1,
+    "attended": false
+  },
+  {
+    "id": 3,
+    "date": "2023-11-10",
+    "time": "9:30 AM - 10:30 AM",
+    "description": "Full Body Screaning",
+    "patientId": 2,
+    "attended": true
+  },
+  {
+    "id": 4,
+    "date": "2023-11-12",
+    "time": "3:30 PM - 4:30 PM",
+    "description": "Diabetes Consaltation",
+    "patientId": 2,
+    "attended": false
+  },
+  {
+    "id": 5,
+    "date": "2023-11-15",
+    "time": "11:00 AM - 12:00 PM",
+    "description": "Therapy Sessions",
+    "patientId": 3,
+    "attended": true
+  },
+  {
+    "id": 6,
+    "date": "2023-11-20",
+    "time": "1:30 PM - 2:30 PM",
+    "description": "Full Body Screaning",
+    "patientId": 3,
+    "attended": true
+  }
+]

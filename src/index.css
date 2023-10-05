@@ -1,13 +1,168 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* CalendarComponent.css */
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-left: 700px;
+  margin-top: 20px;
+  height: 50vh;
+  width: 50vh;
+  border: 1px solid #10f7c9;
+  border-radius: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.calendar-container h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+/* Style the date picker */
+.react-datepicker {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the selected date */
+.react-datepicker__day--selected {
+  background-color: #007bff; /* Change to your preferred color */
+  color: white;
+}
+
+/* Style the today's date */
+.react-datepicker__day--today {
+  font-weight: bold;
+}
+
+/* Style the date picker input */
+.react-datepicker__input-container {
+  display: block;
+  width: 100%;
+}
+
+/* Style the date picker input field */
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style the date picker icon */
+.react-datepicker__input-container i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Style the date picker pop-up */
+.react-datepicker-popper {
+  z-index: 999;
+}
+
+/* PatientAppointments.css */
+
+/* Style the container */
+.patient-appointments-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 700px;
+  margin-bottom: 20px;
+  height: 50vh;
+  width: 50vh;
+  border: 1px solid #10f7c9;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Style the heading */
+.patient-appointments-container h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+/* Style the list of appointments */
+.patient-appointments-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style each appointment item */
+.patient-appointment-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Style appointment details */
+.patient-appointment-details {
+  font-size: 16px;
+}
+
+/* Style attended status */
+.patient-appointment-attended {
+  font-weight: bold;
+  color: #007bff; /* Change to your preferred color */
+}
+
+/* Style not attended status */
+.patient-appointment-attended.not-attended {
+  color: #ff0000; /* Change to your preferred color for not attended */
+}
+
+/* PatientProfile.css */
+
+/* Style the container */
+.patient-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  padding: 20px;
+  margin-left: 700px;
+  margin-bottom: 20px;
+  height: 50vh;
+  width: 50vh;
+  border: 1px solid #10f7c9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Style the heading */
+.patient-profile-container h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+/* Style patient details */
+.patient-details {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style individual patient details */
+.patient-details p {
+  margin: 5px 0;
+}
+
+/* Style patient name */
+.patient-name {
+  font-weight: bold;
+}
+
+/* Style patient email */
+.patient-email {
+  color: #007bff; /* Change to your preferred color */
 }
