@@ -8,7 +8,7 @@ const PatientAppointments = ({ patientId }) => {
 
   return (
     <div className="patient-appointments-container">
-      <h2>Your Appointments</h2>
+      <h2>Appointments</h2>
       <ul className="patient-appointments-list">
         {patientAppointments.map((appointment) => (
           <li className="patient-appointment-item" key={appointment.id}>

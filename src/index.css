@@ -1,5 +1,5 @@
-/* CalendarComponent.css */
 
+/* CalendarComponent.css */
 .calendar-container {
   display: flex;
   flex-direction: column;
@@ -118,51 +118,49 @@
 
 /* Style not attended status */
 .patient-appointment-attended.not-attended {
-  color: #ff0000; /* Change to your preferred color for not attended */
+  color: #fff; /* Change to your preferred color for not attended */
 }
 
 /* PatientProfile.css */
 
-/* Style the container */
 .patient-profile-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  justify-content: center;
-  padding: 20px;
-  margin-left: 700px;
-  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #10f7c9;
+  border: 1px solid ;
+  border-radius: 5px;
+  padding: 10px;
   height: 50vh;
   width: 50vh;
-  border: 1px solid #10f7c9;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
+  margin: 0 auto;
+  text-align: center;
 }
 
-/* Style the heading */
-.patient-profile-container h2 {
-  font-size: 45px;
-  margin-bottom: 20px;
+.patient-profile-container.logged-in {
+  background-color: #c3e6cb; /* Green background color for logged-in state */
 }
 
-/* Style patient details */
-.patient-details {
-  font-size: 18px;
-  margin-bottom: 10px;
+.patient-profile-container.logged-out {
+  background-color: #f8d7da; /* Red background color for logged-out state */
 }
 
-/* Style individual patient details */
-.patient-details p {
+.patient-name,
+.patient-email {
   margin: 5px 0;
 }
 
-/* Style patient name */
-.patient-name {
-  font-weight: bold;
+.login-button,
+.logout-button {
+  background-color: #007bff; /* Blue color for buttons */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-/* Style patient email */
-.patient-email {
-  color: #007bff; /* Change to your preferred color */
+.login-button:hover,
+.logout-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
 }
+

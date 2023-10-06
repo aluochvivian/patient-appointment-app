@@ -6,10 +6,9 @@ import CalendarComponent from './CalendarComponent';
 
 const App = () => {
   const loggedInPatient = patientsData[0];
-
   return (
     <div>
-      <h1>Patient Appointment App</h1>
+      <h1>Patient's Appointments</h1>
       <PatientProfile patient={loggedInPatient} />
       <PatientAppointments patientId={loggedInPatient.id} />
       <CalendarComponent />
